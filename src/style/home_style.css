@@ -27,8 +27,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(15, 15, 15, 0.9);
-  backdrop-filter: blur(8px);
+  background: rgba(15, 15, 15, 0.653);
+  backdrop-filter: blur(10px);
   border-bottom: #1a1a1a solid 1px;
 }
 
@@ -44,6 +44,11 @@ header .logo {
 
 header .logo img {
   width: 40px;
+}
+
+.hamburguerBtn{
+  display: none;
+  cursor: pointer;
 }
 
 header .headerButtons ul {
@@ -122,18 +127,19 @@ header .btn_download:hover {
   margin-bottom: 20px;
 }
 
-.mainText button {
+.contratarBtn {
   background: #ff6600;
   border: none;
   padding: 12px 28px;
   border-radius: 6px;
   color: #fff;
   font-weight: 600;
+  width: 20em;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
-.mainText button:hover {
+.contratarBtn:hover {
   background: #ff8533;
   box-shadow: #ff6600 0px 0px 30px;
 }
@@ -206,5 +212,20 @@ header .btn_download:hover {
 }
 
 
+/* mobile*/
 
+@media (max-width: 866px) {
+  .headerButtons{
+    display: none;
+  }
+  .hamburguerBtn{
+    display: flex;
+  }
+}
+@media (max-width: 482px) {
+  body{
+    
+  }
+}
+}
 
