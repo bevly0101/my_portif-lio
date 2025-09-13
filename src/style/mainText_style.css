@@ -1,0 +1,13 @@
+.mainText{
+    display: flex;
+    width: 50%;
+    background-color: rgb(91, 91, 91);
+    height: 88vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 0 1em;
+}
+.mainTextDiv{
+    
+}

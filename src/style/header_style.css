@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    padding: 0.3em;
+    margin: 0 5em;
+    border-bottom: #333333 solid 0.3px;
+}
+.logo{
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 3em;
+
+}
+.logo span{
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 0.3em;
+  color: #FD6F00;
+  min-width: 35px;
+  justify-content: center;
+}
+.logo img{
+  width: 30px;
+  height: 35px;
+}
+.headerButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.headerButtons ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+
+}
+.headerButtons li{
+  display: flex;
+  width: 20%;
+  min-width: 75px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.headerButtons a{
+  color: #8a8a8a;
+  font-size: 1.3em;
+  transition: all cubic-bezier(0.23, 1, 0.320, 1) 800ms ;
+}
+.headerButtons a:hover{
+  color: #FD6F00;
+}
+.btn_download{
+  background-color: #FD6F00;
+  color: aliceblue;
+  width: 70%;
+  height: 80%;
+  font-weight: 600;
+  border-radius: 9px;
+}

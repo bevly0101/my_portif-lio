@@ -1,0 +1,21 @@
+/* ===== PROJECTS ===== */
+.myProjects div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.myProjects img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.myProjects div span{
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.5em;
+}

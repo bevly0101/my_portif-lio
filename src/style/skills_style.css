@@ -1,0 +1,36 @@
+/* ===== SKILLS ===== */
+.skills {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.skills div {
+  background: #1a1a1a;
+  padding: 35px 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.skills div:hover {
+  transform: translateY(-8px);
+  border-color: #ff6600;
+  box-shadow: 0 8px 30px #ff6600;
+}
+.skills div:not(:hover) {
+  filter: opacity(50%);
+}
+
+.skills img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.skills span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
