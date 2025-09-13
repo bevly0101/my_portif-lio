@@ -21,8 +21,11 @@ document.querySelectorAll('.btnServices').forEach(e=>{
     scrollTo(0,2000)
 })})
 
+const number = '5527998282603';
+const message = 'Olá gostaria de fazer um orçamento de seu serviço!';
+const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 document.querySelector('.mainTextInfo button').addEventListener('click',()=>{
-    window.open('https://wa.me/5527998282603?text=olá gostaria de fazer um orçamento de seu serviço!')
+    window.open(url, '_blank')
 })
 
 
