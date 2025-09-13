@@ -221,11 +221,28 @@ header .btn_download:hover {
   .hamburguerBtn{
     display: flex;
   }
-}
-@media (max-width: 482px) {
-  body{
-    
+  .mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0;
+    width: 100%;
+    padding-top: 0;
+    align-items: center;
   }
 }
+@media (max-width: 482px) {
+  .mainTextDiv{
+    margin:0;
+    padding: 0;
+    width: 100%;
+  }
+  .imgPerfil{
+    width: 250px;
+    height: 250px;
+  }
+  .mainTextDiv{
+
 }
+
 
